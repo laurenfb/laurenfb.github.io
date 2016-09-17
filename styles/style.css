@@ -1,0 +1,84 @@
+/* ------stuff that applies to everything---------*/
+.name {
+  font-size: 4em;
+}
+
+/* -----layout of the nav below name on front page-------*/
+nav ul li{
+  display: inline;
+  padding: 0 5% 0 5%;
+}
+
+.leftmost {
+  padding-right: 5%;
+  padding-left: 0;
+}
+
+.rightmost {
+  padding-right: 0;
+  padding-left: 5%;
+}
+
+/*------column on front page ------- */
+#front-page {
+  background-color: rgb(200, 162, 245);
+  width: 60vw;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 45vh;
+}
+
+/*----layout about.html top header -----*/
+
+header {
+  margin-bottom: 15vh;
+}
+
+h1:first-child {
+  display: inline;
+}
+
+.top-nav {
+  background-color: gold;
+  float: right;
+  margin: 1vmin;
+  padding: 1vmin;
+}
+
+.top-nav ul li {
+  padding: 0 10px 0 10px;
+  text-align: right;
+  background-color: violet;
+}
+
+/*----layout about.html content -----*/
+
+.about {
+  display: inline;
+}
+
+.about ul {
+  margin: 4vw 1vw auto;
+}
+
+.about ul li {
+  margin: 0.5vw auto 0.5vw auto;
+  background-color: olive;
+  display: block;
+}
+
+.hero {
+  margin-left: 5vw;
+  margin-right: 3vw;
+  border-radius: 50%;
+  float: left;
+}
+
+#see-more {
+  text-align: center;
+  font-size: 1.5em;
+}
