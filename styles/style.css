@@ -82,3 +82,19 @@ h1:first-child {
   text-align: center;
   font-size: 1.5em;
 }
+
+
+/*----laying out contact.html*/
+
+.contact-methods{
+  text-align: center;
+  padding-top: 10vh;
+}
+.contact-methods img{
+  height: 100px;
+}
+
+.contact-methods li{
+  display: inline;
+  padding: 5vmin;
+}
