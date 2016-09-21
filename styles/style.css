@@ -89,6 +89,7 @@ h1:first-child {
 .contact-methods{
   text-align: center;
   padding-top: 10vh;
+  background-color: teal;
 }
 .contact-methods img{
   height: 100px;
