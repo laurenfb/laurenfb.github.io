@@ -1,6 +1,7 @@
 /* ------stuff that applies to everything---------*/
 .name {
   font-size: 4em;
+  margin: 2vmin 0 0 2vmin;
 }
 
 /* -----layout of the nav below name on front page-------*/
