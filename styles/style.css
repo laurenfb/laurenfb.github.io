@@ -1,6 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
 /* ------stuff that applies to everything---------*/
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .name {
-  font-size: 4em;
+  font-size: 4.5em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(77, 11, 122)
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(32, 14, 181);
+}
+
+/*--- the name that appears in the top right corner needs a little margin ----- */
+header h1{
   margin: 2vmin 0 0 2vmin;
 }
 
@@ -21,8 +43,9 @@ nav ul li{
 }
 
 /*------column on front page ------- */
+
 #front-page {
-  background-color: rgb(200, 162, 245);
+  /*background-color: rgb(200, 162, 245);*/
   width: 60vw;
   height: 100vh;
   margin-right: auto;
@@ -30,7 +53,11 @@ nav ul li{
   display: block;
   text-align: center;
   vertical-align: center;
-  padding-top: 45vh;
+  padding-top: 35vh;
+}
+
+.some-space {
+  padding: 2vmin;
 }
 
 /*----layout about.html top header -----*/
