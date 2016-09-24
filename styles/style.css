@@ -21,6 +21,12 @@ a:hover {
   color: rgb(32, 14, 181);
 }
 
+
+h2{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
 /*--- the name that appears in the top right corner needs a little margin ----- */
 header h1{
   margin: 2vmin 0 0 2vmin;
@@ -60,7 +66,7 @@ nav ul li{
   padding: 2vmin;
 }
 
-/*----layout about.html top header -----*/
+/*----layout & styling top header -----*/
 
 header {
   margin-bottom: 15vh;
@@ -71,19 +77,23 @@ h1:first-child {
 }
 
 .top-nav {
-  background-color: gold;
+  /*background-color: gold;*/
   float: right;
   margin: 1vmin;
-  padding: 1vmin;
+  padding: 2vmin;
 }
 
 .top-nav ul li {
-  padding: 0 10px 0 10px;
+  padding: 0 15px 0 15px;
   text-align: right;
-  background-color: violet;
+  /*background-color: violet;*/
 }
+/*
+.current-page {
+  background-color: rgb(223, 225, 255);
+}*/
 
-/*----layout about.html content -----*/
+/*----layout & style about.html content -----*/
 
 .about {
   display: inline;
@@ -91,15 +101,16 @@ h1:first-child {
 
 .about ul {
   margin: 4vw 1vw auto;
+  /*list-style-type: circle;*/
 }
 
 .about ul li {
-  margin: 0.5vw auto 0.5vw auto;
-  background-color: olive;
+  margin: 0.75vw auto 0.75vw auto;
   display: block;
 }
 
 .hero {
+  height: 300px;
   margin-left: 5vw;
   margin-right: 3vw;
   border-radius: 50%;
@@ -130,9 +141,8 @@ h1:first-child {
 
 /*------laying out blog.html--------*/
 
-h2{
-  font-size: 2rem;
-  margin: -5vh 5vw 5vh 1vw;
+#blog-title{
+  margin: -5vh 5vw 5vh 3vw;
 }
 
 .blog-post{
