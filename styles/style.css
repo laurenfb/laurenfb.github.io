@@ -27,6 +27,10 @@ h2{
   font-weight: bolder;
 }
 
+.page-title{
+  margin: -5vh 5vw 5vh 3vw;
+}
+
 /*--- the name that appears in the top right corner needs a little margin ----- */
 header h1{
   margin: 2vmin 0 0 2vmin;
@@ -128,7 +132,7 @@ h1:first-child {
 .contact-methods{
   text-align: center;
   padding-top: 10vh;
-  background-color: teal;
+  /*background-color: teal;*/
 }
 .contact-methods img{
   height: 100px;
@@ -141,9 +145,7 @@ h1:first-child {
 
 /*------laying out blog.html--------*/
 
-#blog-title{
-  margin: -5vh 5vw 5vh 3vw;
-}
+
 
 .blog-post{
   margin: 5vmin 0 5vmin 1vw;
