@@ -12,13 +12,13 @@
 
 a {
   text-decoration: none;
-  color: rgb(77, 11, 122)
+  color: rgb(0, 129, 78);
 }
 
 a:hover {
   font-weight: bold;
   text-decoration: underline;
-  color: rgb(32, 14, 181);
+  color: rgb(108, 108, 108);
 }
 
 
@@ -29,6 +29,15 @@ h2{
 
 .page-title{
   margin: -5vh 5vw 5vh 3vw;
+}
+
+/* re-styling top title so it won't look like a regular link*/
+.top-title {
+  color: black;
+}
+
+.top-title:hover {
+  text-decoration: none;
 }
 
 /*--- the name that appears in the top right corner needs a little margin ----- */
