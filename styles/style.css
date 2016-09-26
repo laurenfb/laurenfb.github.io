@@ -158,8 +158,8 @@ h1:first-child {
 
 .blog-post{
   margin: 5vmin 0 5vmin 1vw;
-  padding-left: 10vw;
-  background-color: lightgreen;
+  padding-left: 5vw;
+  /*background-color: lightgreen;*/
 }
 .blog-post h3{
   font-weight: bold;
