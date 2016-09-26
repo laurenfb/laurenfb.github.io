@@ -4,9 +4,15 @@ h2 {
 
 .blog-content {
   margin-left: 3vw;
+  width: 65%;
+  /*background-color: gold;*/
 }
 
 .blog-content h4 {
   margin-bottom: 5vh;
-  margin-top: -2vh;
+  margin-top: 2vh;
+}
+
+.blog-content p {
+  margin-bottom: 2vh;
 }
