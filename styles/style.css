@@ -2,7 +2,7 @@
 
 /* ------stuff that applies to everything---------*/
 
-* {
+*, h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -173,4 +173,25 @@ h1:first-child {
 
 .blog-post p {
   margin-bottom: 2vmin;
+}
+
+
+/*------ portfolio --------*/
+
+.portfolio-image{
+  border-radius: 50%;
+
+}
+
+.portfolio-item{
+  width: 40%;
+  background-color: gold;
+  float: left;
+  height: 50%;
+  margin: 4%;
+}
+
+
+.portfolio-item li {
+  list-style-type: circle;
 }
