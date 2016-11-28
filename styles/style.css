@@ -180,17 +180,20 @@ h1:first-child {
 
 .portfolio-image{
   border-radius: 50%;
+  /*text-align: center;*/
+  padding: 10% 0 10% 0;
+  /*margin: auto;*/
 }
 
 .portfolio-item{
   border: 1px solid;
-  margin: 1% 1% 1% 0;
+  margin: 2%;
+}
+
+.center{
+  text-align: center;
 }
 
 .portfolio-item li {
   list-style-type: circle;
 }
-
-/*.weird-thing{
-  margin-left: -50%;
-}*/
