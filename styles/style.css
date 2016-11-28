@@ -180,9 +180,9 @@ h1:first-child {
 
 .portfolio-image{
   border-radius: 50%;
-  /*text-align: center;*/
   padding: 10% 0 10% 0;
-  /*margin: auto;*/
+  display: block;
+  margin: auto;
 }
 
 .portfolio-item{
