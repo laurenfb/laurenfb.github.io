@@ -41,12 +41,12 @@ h2{
 }
 
 /*--- the name that appears in the top right corner needs a little margin ----- */
-header h1{
+header h1 {
   margin: 2vmin 0 0 2vmin;
 }
 
 /* -----layout of the nav below name on front page-------*/
-nav ul li{
+nav ul li {
   display: inline;
   padding: 0 5% 0 5%;
 }
@@ -62,9 +62,7 @@ nav ul li{
 }
 
 /*------column on front page ------- */
-
 #front-page {
-  /*background-color: rgb(200, 162, 245);*/
   width: 60vw;
   height: 100vh;
   margin-right: auto;
@@ -80,7 +78,6 @@ nav ul li{
 }
 
 /*----layout & styling top header -----*/
-
 header {
   margin-bottom: 15vh;
 }
@@ -90,7 +87,6 @@ h1:first-child {
 }
 
 .top-nav {
-  /*background-color: gold;*/
   float: right;
   margin: 1vmin;
   padding: 2vmin;
@@ -99,22 +95,15 @@ h1:first-child {
 .top-nav ul li {
   padding: 0 15px 0 15px;
   text-align: right;
-  /*background-color: violet;*/
 }
-/*
-.current-page {
-  background-color: rgb(223, 225, 255);
-}*/
 
 /*----layout & style about.html content -----*/
-
 .about {
-  display: inline;
+  display: inline-block;
 }
 
 .about ul {
   margin: 4vw 1vw auto;
-  /*list-style-type: circle;*/
 }
 
 .about ul li {
@@ -135,33 +124,27 @@ h1:first-child {
   font-size: 1.5em;
 }
 
-
 /*----laying out contact.html*/
-
-.contact-methods{
+.contact-methods {
   text-align: center;
   padding-top: 10vh;
-  /*background-color: teal;*/
 }
-.contact-methods img{
+.contact-methods img {
   height: 100px;
 }
 
-.contact-methods li{
+.contact-methods li {
   display: inline;
   padding: 5vmin;
 }
 
 /*------laying out blog.html--------*/
-
-
-
-.blog-post{
+.blog-post {
   margin: 5vmin 0 5vmin 1vw;
   padding-left: 5vw;
-  /*background-color: lightgreen;*/
 }
-.blog-post h3{
+
+.blog-post h3 {
   font-weight: bold;
   font-size: 1.25em;
   margin: 1vmin 1vmin 1vmin 0;
@@ -177,20 +160,24 @@ h1:first-child {
 
 
 /*------ portfolio --------*/
-
-.portfolio-image{
+.portfolio-image {
   border-radius: 50%;
   padding: 10% 0 10% 0;
   display: block;
   margin: auto;
+  max-height: 300px;
 }
 
-.portfolio-item{
+.square {
+  border-radius: 0%;
+}
+
+.portfolio-item {
   border: 1px solid;
   margin: 3%;
 }
 
-.center{
+.center {
   text-align: center;
 }
 

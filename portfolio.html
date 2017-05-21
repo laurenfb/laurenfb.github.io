@@ -4,6 +4,7 @@
     <title>lauren fries brink</title>
     <link rel='stylesheet' href='./styles/foundation.css' />
     <link rel='stylesheet' href='./styles/style.css' />
+    <link rel='icon' href='./assets/caps-L.png'>
   </head>
 
   <body>
@@ -12,7 +13,7 @@
       <nav class='top-nav'>
         <ul>
           <li><a href='about.html'>about</a></li>
-          <li><a href='blog.html'>blog</a></li>
+          <!-- <li><a href='blog.html'>blog</a></li> -->
           <li><a href='portfolio.html'>portfolio</a></li>
           <li><a href='contact.html'>contact</a></li>
         </ul>
@@ -21,83 +22,123 @@
     </header>
     <!--above here is most likely repeated on all pages-->
       <h2 class='page-title'>portfolio</h2>
+
       <div class='row'>
         <article class='portfolio-item small-11 medium-5 large-5 columns'>
-          <img src="./assets/js-clock.png" title="clock" class="portfolio-image"\>
-          <h3 class='center'>simple digital clock</h3>
-          <p class='center'><a href='https://laurenfb.github.io/js-digital-clock/' target='blank'>app</a> | <a href='https://github.com/laurenfb/js-digital-clock' target='blank'>github</a></p>
+          <img src="./assets/knitsights-logo.png" title="knitsights" class="portfolio-image"\>
+          <h3 class='center'>knitsights - capstone project</h3>
+
+          <p class='center'><a href='http://laurenfb.github.io/knitsights' target='_blank'>app</a> | <a href='https://github.com/laurenfb/knitsights' target='_blank'>github</a></p>
 
           <p>
-            Our first project with Javascript and jQuery. I deployed to Github Pages after completing requirements, just in case anyone ever needs an internet clock.
+            My capstone project for Ada Developers Academy, built over 3.5 weeks in January 2017. A solo project on a topic I'm passionate about, using technologies both covered and not covered in class. This project was one of just 3 chosen from 48 projects to be featured on <a href='http://adadevacademy.tumblr.com/post/157292589122/a-learning-experience-for-everyone' target='_blank'>Ada's blog</a>. For more, please check out the README on the <a href='https://github.com/laurenfb/knitsights' target='_blank'>repo</a>.
           </p>
 
           <h5>technologies used:</h5>
           <ul>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>HTML/CSS</li>
+            <li>Backend: Flask REST API</li>
+            <li>Postgres with Psycopg as an ORM</li>
+            <li>Front end: Backbone.js & Webpack</li>
+            <li><a href="https://ravelry.com/" target='_blank'>Ravelry</a> external API</li>
+            <li>Foundation</li>
+            <li>Heroku & Github Pages</li>
+          </ul>
+        </article>
+
+        <article class='portfolio-item small-11 medium-5 large-5 columns end'>
+          <img src="./assets/beyoncy.png" title="beyoncy" class="portfolio-image"\>
+          <h3 class='center'>beyoncy</h3>
+
+          <p class='center'><a href='http://beyoncy.herokuapp.com/' target='_blank'>app</a> | <a href='https://github.com/alyssahursh/beyoncy' target='_blank'>github</a></p>
+
+          <p>
+            Working with three classmates, I created this Beyonce-themed eCommerce website. In particular, my work focused on model testing and view/action privileges for admin users. In addition, I led my group's sprint planning and acted as product manager to ensure we prioritized work and finished in time.
+          </p>
+
+          <h5>technologies used:</h5>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>Minitest</li>
+            <li>Foundation</li>
+            <li>Postgres</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class='row'>
+        <article class='portfolio-item small-11 medium-5 large-5 columns'>
+            <img src="./assets/tic-tac-toe.png" title="tic-tac-toe" class="portfolio-image square"\>
+              <h3 class='center'>tic-tac-toe</h3>
+              <p class='center'><a href='http://laurenfb.github.io/tic-tac-toe' target='_blank'>app</a> | <a href='https://github.com/laurenfb/tic-tac-toe' target='_blank'>github</a></p>
+              <p>
+                A single-page application to play Tic-Tac-Toe with a friend. Fetches from and posts to a Ruby on Rails API deployed <a href='http://lauren-tic-tac-toe.herokuapp.com/api/v1/games' target='_blank'>on Heroku</a> to track players and game history.
+              </p>
+
+          <h5>technologies used:</h5>
+          <ul>
+            <li>Backbone.js</li>
+            <li>Underscore templating</li>
+            <li>Foundation</li>
+            <li>Ruby on Rails REST API</li>
+            <li>Postgres</li>
+            <li>Jasmine</li>
           </ul>
         </article>
 
         <article class='portfolio-item small-11 medium-5 large-5 columns end'>
             <img src="./assets/what-the-heck-should-I-eat-logo.png" title="what the heck" class="portfolio-image"\>
               <h3 class='center'>what the heck should i eat?</h3>
-              <p class='center'><a href='http://whattheheckshouldieat.herokuapp.com/' target='blank'>app</a> | <a href='https://github.com/laurenfb/api-muncher' target='blank'>github</a></p>
+              <p class='center'><a href='http://whattheheckshouldieat.herokuapp.com/' target='_blank'>app</a> | <a href='https://github.com/laurenfb/api-muncher' target='_blank'>github</a></p>
               <p>
-                A solo project to search recipes through an API. I focused on responsive, clean design using Foundation.
+                A solo project to search recipes through an API. I focused on responsive, clean design using Foundation,
               </p>
 
           <h5>technologies used:</h5>
           <ul>
             <li>Ruby on Rails</li>
-            <li>Foundation CSS Framework</li>
+            <li>Foundation</li>
             <li>Minitest</li>
-            <li><a href="https://developer.edamam.com/" target='blank'>Edamam</a> API</li>
+            <li><a href="https://developer.edamam.com/" target='_blank'>Edamam</a> external API</li>
           </ul>
         </article>
       </div>
 
       <div class='row'>
         <article class='portfolio-item small-11 medium-5 large-5 columns'>
-          <img src="./assets/beyoncy.png" title="beyoncy" class="portfolio-image"\>
-          <h3 class='center'>beyoncy</h3>
-
-          <p class='center'><a href='http://beyoncy.herokuapp.com/' target='blank'>app</a> | <a href='https://github.com/laurenfb/beyoncy' target='blank'>github</a></p>
+          <img src="./assets/js-clock.png" title="clock" class="portfolio-image"\>
+          <h3 class='center'>simple digital clock</h3>
+          <p class='center'><a href='https://laurenfb.github.io/js-digital-clock/' target='_blank'>app</a> | <a href='https://github.com/laurenfb/js-digital-clock' target='_blank'>github</a></p>
 
           <p>
-            Working with three classmates, I created this Beyonce-themed eCommerce website. In particular, my work focused on model testing and view/action privileges for admin users.
+            A very early project using Javascript and jQuery. As an extension of the requirements, I deployed my project to Github Pages, just in case there's ever a shortage of clocks on the internet.
           </p>
 
           <h5>technologies used:</h5>
           <ul>
-            <li>Ruby on Rails</li>
-            <li>Minitest</li>
-            <li>Foundation CSS Framework</li>
-            <li>SQLite (development)</li>
-            <li>Postgres (production)</li>
+            <li>Javascript</li>
+            <li>jQuery</li>
           </ul>
         </article>
-
 
         <article class='portfolio-item small-11 medium-5 large-5 columns end'>
           <img src="./assets/farmar-rails.png" title="farmar" class="portfolio-image"\>
           <h3 class='center'>farmer's market finder</h3>
 
-          <p class='center'><a href='https://jl-farmar.herokuapp.com/' target='blank'>app</a> | <a href='https://github.com/laurenfb/FarMarRails' target='blank'>github</a></p>
+          <p class='center'><a href='https://jl-farmar.herokuapp.com/' target='_blank'>app</a> | <a href='https://github.com/laurenfb/FarMarRails' target='_blank'>github</a></p>
 
           <p>
-            Our first big Rails project, and our first deployed to Heroku. Together with a partner, I built this simple database to search Farmer's Markers in the US.
+            The first large Rails project at Ada, and our first app deployed to production. Together with a partner, I built this simple database to search Farmer's Markers in the US.
           </p>
 
           <h5>technologies used:</h5>
           <ul>
             <li>Ruby on Rails</li>
-            <li>SQLite (development)</li>
-            <li>Postgres (production)</li>
-            <li>HTML/CSS</li>
+            <li>Postgres</li>
+            <li>Vanilla HTML/CSS</li>
           </ul>
         </article>
       </div>
+
 
   </body>
 </html>
