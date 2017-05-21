@@ -109,7 +109,7 @@ h1:first-child {
 /*----layout & style about.html content -----*/
 
 .about {
-  display: inline;
+  display: inline-block;
 }
 
 .about ul {
@@ -183,6 +183,11 @@ h1:first-child {
   padding: 10% 0 10% 0;
   display: block;
   margin: auto;
+  width: 300px;
+}
+
+.square {
+  border-radius: 0%;
 }
 
 .portfolio-item{
